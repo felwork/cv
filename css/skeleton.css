@@ -45,37 +45,41 @@
     box-sizing: border-box;
 }
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-    .container {
-        width: 85%;
-        padding: 0;
-    }
-}
-
 /* Custom */
 .phone.column {
-    width: 42%;
+    width: 30%;
     margin-top: 65px;
     word-wrap: break-word;
+    text-align: center;
 }
 
 .email.column {
-    width: 43%;
+    width: 70%;
     margin-top: 65px;
     word-wrap: break-word;
+    text-align: center;
 }
 
 .location.column {
-    width: 40%;
+    width: 90%;
     margin-top: 65px;
     word-wrap: break-word;
+    text-align: center;
 }
 
 .age.column {
     width: 40%;
     margin-top: 65px;
     word-wrap: break-word;
+    text-align: center;
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
 }
 
 /* For devices larger than 550px */
@@ -97,7 +101,7 @@
     }
 
     .row {
-        margin-top: 30px;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
 
@@ -119,17 +123,18 @@
     }
 
     .five.columns {
-        width: 39.3333333333%;
+        width: 30.3333333333%;
         text-align: left;
     }
 
     .six.columns {
         width: 50%;
         margin-left: 0px;
+        margin-top: 0px;
     }
 
     .seven.columns {
-        width: 56.6666666667%;
+        width: 60.6666666667%;
     }
 
     .eight.columns {
@@ -173,25 +178,25 @@
 
     /* Custom */
     .phone.column {
-        width: 42%;
+        width: 44%;
         margin-top: 65px;
         word-wrap: break-word;
     }
 
     .email.column {
-        width: 43%;
+        width: 66%;
         margin-top: 65px;
         word-wrap: break-word;
     }
 
     .location.column {
-        width: 40%;
+        width: 50%;
         margin-top: 65px;
         word-wrap: break-word;
     }
 
     .age.column {
-        width: 40%;
+        width: 30%;
         margin-top: 65px;
         word-wrap: break-word;
     }
@@ -696,6 +701,9 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+}
+
+@media (min-width: 300px) {
 }
 
 /**
